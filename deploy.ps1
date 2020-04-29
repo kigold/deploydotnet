@@ -26,6 +26,7 @@ $webApp.stop()
 
 echo "~~~~~~~~~~~~~~~~~~~~~~~~RECYCLING WEB APP POOL ~~~~~~~~~~~~~~~~~~~~~~~~~~"
 Restart-WebAppPool $webApp.applicationPool
+Restart-WebAppPool $webApp.applicationPool
 
 
 Copy-item -Force -Recurse -Verbose $buildPath -Destination $deployPath
