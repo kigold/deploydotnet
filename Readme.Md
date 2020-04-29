@@ -46,7 +46,8 @@ What I expect you to do though, is to update the configuration file as required
   - cd [path of project]
 - Type
 
-  ```.\deploy.ps1 -app [appname]
+  ```
+  .\deploy.ps1 -app [appname]
 
   ```
 
