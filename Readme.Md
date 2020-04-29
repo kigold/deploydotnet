@@ -1,14 +1,14 @@
 # Continuous Deployment of Dotnetcore app using PowerShell
 
-This project is a basic project to get you started with a script that can help you deploy you dotnetcore in an automated fashion thereby leaving you with more time to focus on what you love doing ~~Cook beans~~ I mean write quality code.
+This project is meant to get you started with a automated deployment.
 
-I structued the script in a way that minimizes the need for you to need to update the main script itself.
+You will be able to deploy your dotnetcore application in an automated fashion thereby leaving you with more time to focus on what you love doing ~~Cook beans~~ I mean write quality code.
+
+I structued the script in a way that minimizes the need for you to update the main script itself.
 
 ### Preparations
 
 > If you have not ran powershell scritps before you might need to do a bit of googling on how to run powershell scripts
-
-What I expect you to do though, is to update update the configuration file as required
 
 You are required to do the following things
 
@@ -19,8 +19,12 @@ You are required to do the following things
 
 > For me, my code base contained different projects, so I had to create configurations for each application
 
+What I expect you to do though, is to update the configuration file as required
+
 - Create a configuration file for each project
   - This configuration file is an xml file
+  - Give this file a simple name that you can use to define each application
+    > Spoiler alert, the name you give this file is the argument that you would pass while running the script
   - Copy the xml in this project, and update the properties to suit your need
     - **codepath** this will be the path to the code you want to deploy
     - **deploypath** this is the folder path where you want to deploy the application
@@ -49,8 +53,3 @@ You are required to do the following things
   - This is you running the script, and passing the name of the xml file you want to use to configure your deployment
 
   > I expect that your xml files are in the same folder as the **deploy.ps1** file
-
-
-
-
-  
