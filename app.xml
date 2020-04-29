@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<configuration>
+  <appSettings>
+    <!--Vars -->
+    <codepath value="c:\work\myappservice"/>
+    <deploypath value="c:\publish\App\"/>
+    <appconfigpath value="c:\publish\config\app\*"/>
+    <iisappname value="app"/>
+    <dotnetversion value="netcoreapp2.2"/>
+
+  </appSettings>
+</configuration>
